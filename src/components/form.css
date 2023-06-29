@@ -1,0 +1,35 @@
+.form {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: blue;
+    text-align: left;
+    border: .5vmin dashed blue;
+    border-radius: 0.3rem;
+    padding: 1rem;
+  }
+  
+  .form > input,
+  .form > select {
+    font-size: 1rem;
+    font-weight: bold;
+    color: blue;
+    padding: 0.2rem;
+    border: 0.2rem solid coral;
+    border-radius: 0.3rem;
+    outline: none;
+  }
+  
+  .form > button {
+    grid-column: span 2;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    padding: 0.2rem;
+    background-color: blue;
+    border: 0.2rem solid blue;
+    border-radius: 0.3rem;
+  }
